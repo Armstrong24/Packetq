@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Packet Simulator",
+            "type": "shell",
+            "command": "gcc",
+            "args": ["-Wall", "-g", "main.c", "packet.c", "circular_queue.c", "priority_queue.c", "simulator.c", "-o", "netsim"],
+            "options": { "cwd": "${workspaceFolder}" },
+            "windows": {
+                "options": {
+                    "cwd": "${workspaceFolder}",
+                    "env": { "PATH": "C:\\msys64\\ucrt64\\bin;${env:PATH}" }
+                }
+            },
+            "group": { "kind": "build", "isDefault": true },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}

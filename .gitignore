@@ -1,0 +1,4 @@
+netsim
+netsim.exe
+*.o
+results.csv
