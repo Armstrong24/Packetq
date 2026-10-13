@@ -2,6 +2,8 @@
 
 **Data Structures (BTECAD25302) · PS 9 · SQ09**
 
+🌐 **Live demo:** https://packetq.vercel.app/  (interactive web version of the simulator, source in [`web/`](web/))
+
 A C simulation of a router that receives packets, stores them in a limited-capacity buffer and sends them using a selected queue policy. It models congestion and packet drops and compares results under different traffic loads.
 
 **Core data structures:** circular queue (FIFO buffer) and priority queue (binary max-heap).
