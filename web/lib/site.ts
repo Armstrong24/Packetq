@@ -5,7 +5,8 @@ export const SITE = {
   tagline: 'Network Packet Buffer & Traffic Simulator',
   course: 'Data Structures (BTECAD25302) · PS 9 · SQ09',
   year: '2026',
-  githubUrl: '', // e.g. 'https://github.com/your-name/your-repo' (leave empty to hide the button)
+  liveUrl: 'https://packetq.vercel.app/',
+  githubUrl: 'https://github.com/Armstrong24/Packetq', // e.g. 'https://github.com/your-name/your-repo' (leave empty to hide the button)
 }
 
 export const TEAM = [
